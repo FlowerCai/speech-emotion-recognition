@@ -3,7 +3,6 @@ import torch
 import os
 from torchtracer import Tracer
 
-
 def sort_batch(batch, targets, lengths, ids):
     """
     Sort a minibatch by the length of the sequences with the longest sequences first
