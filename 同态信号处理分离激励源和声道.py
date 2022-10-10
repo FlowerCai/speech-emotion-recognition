@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# #### 2019年12月18日15点04分更新  
 # 1.能量而非幅值  
 # 2.线性而非对数  
 # ~~~python
@@ -11,15 +10,9 @@
 # vocal,excitation=np.abs(vocal)**2,np.abs(excitation)**2
 # ~~~
 
-# #### 2019年12月18日18点38分更新  
-# 修正了转到mel谱后忘记取对数的bug
-# #### 2020年11月11日21点21分  
-# n mels换成128，存到一个hdf5  
-# #### 2020年11月12日11点10分  
+# 修正了转到mel谱后忘记取对数的bug 
+# n mels换成128，存到一个hdf5   
 # 恢复数据类型为float32，与原始谱一致
-
-# In[ ]:
-
 
 import numpy as np
 import pandas as pd
@@ -33,7 +26,6 @@ from scipy.fftpack import fft, ifft
 import h5py
 
 
-# In[ ]:
 
 
 def enframe(signal, nw, inc):
