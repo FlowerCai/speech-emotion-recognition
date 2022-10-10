@@ -48,6 +48,7 @@ from visdom import Visdom
 from utils import pad_and_sort_batch, save_checkpoint
 from model import XfModel
 from focalloss import *
+# add 5.3 sampler 
 from my_classes_vary_one_file import Dataset, EvenlyLengthSampler
 from pytorch_tools import EarlyStopping
 import json
