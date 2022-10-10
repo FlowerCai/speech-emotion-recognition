@@ -1,5 +1,5 @@
 # 隐含属性理解（人脑子系统）
-使用与子系统有关的辅助任务，结果见[这里](https://q9eurnjld4.feishu.cn/sheets/shtcnEznwEEb1zWrvWXdsnWFYqh)  
+使用与子系统有关的辅助任务，结果见 `results.xlsx`
 ## 运行示例及run_sh说明  
 A:[0,1], B:[3], C:[1,3], D:[1]  
 A，B，C，D即论文中的A，B，C，D分类器 
